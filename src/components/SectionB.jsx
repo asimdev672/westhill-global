@@ -19,7 +19,7 @@ const SectionB = () => {
                   <img src="img/location.png" className='my-lg-2' alt="" />
                       <h5 className='text-center mb-5 py-sm-3'>FIND A HIGHLY-VETTED, QUALIFIED CONTRACTOR</h5>
                   </div>
-                  <div className='col-lg-4 col-md-4 col-sm-6  border border-top-0 border-bottom-0  py-5 ' >
+                  <div className='col-lg-4 col-md-4 col-sm-6 border border-top-0 border-bottom-0  py-5 ' >
                   <img src="img/location.png" className='my-lg-2 text-lg-center mx-auto' alt="" />
                       <h5 className='text-center mb-5 py-sm-3'>GET A FAIR ESTIMATE WITH QUALITY REVIEW</h5>
                   </div>
@@ -44,7 +44,7 @@ const SectionB = () => {
                   <h3 className='text-center'>POLICYHOLDERS</h3>
                       <p className='text-center mb-5 py-sm-3 px-3'>Insurance Carriers have a unique opportunity to make the home repair process for policyholders a remarkable experience.</p>
                   </div>
-                  <div className='col-lg-4 col-md-4 col-sm-6  border border-top-0 border-bottom-0  py-5 ' >
+                  <div className='col-lg-4 col-md-4 col-sm-6    py-5 ' >
                   <h3 className='text-center'>CARRIERS</h3>
                       <p className='text-center mb-5 py-sm-3 px-3'>Homeowners enjoy a faster, easier customer experience during the process of repairing their homes. It's what we refer to as the “happy path to normal”.</p>
                   </div>

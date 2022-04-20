@@ -5,7 +5,7 @@ const Navbar = () => {
 
 const changebg=()=>{
   console.log(window.scrollY);
-  if(window.scrollY>=80){
+  if(window.scrollY>=15){
     setNavbar(true)
   }else{
     setNavbar(false)

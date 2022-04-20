@@ -1,6 +1,6 @@
 import './App.css';
-// import Lgnavbar from './components/Lgnavbar'
 import Navbar from './components/Navbar';
+import SectionA from './components/SectionA';
 import SectionB from './components/SectionB';
 import SectionC from './components/SectionC';
 import Footer from './components/Footer';
@@ -10,8 +10,9 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 function App() {
   return (
     <>
- {/* <Lgnavbar/> */}
+
    <Navbar/>
+   <SectionA/>
    <SectionB/>
    <SectionC/>
    <Footer/>
