@@ -5,6 +5,9 @@
     padding: 12px 0px;
     color: #393f51;
 }
+.bg-color{
+    background: #f1f2f2;
+}
 .center-div{
    background-color: #393f51;
    /* color: #f05730; */
