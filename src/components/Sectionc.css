@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.btn-card{
+    margin: 3px 10px;
+    padding: 10px 9px;
+    background-color: #393f51;
+    color: #a7bbc6;
+    border-radius: 4px;
+}
+.btn-card:hover{
+    color: #f05730;
+}
+.bg-color{
+    background: #f1f2f2;
+}
