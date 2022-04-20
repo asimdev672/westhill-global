@@ -1,0 +1,28 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.footers{
+    color: #a7bbc6;
+    background-color: #393f51
+}
+
+.copyright{
+    font-size: small;
+    font-weight: 700;
+}
+.footer-email-link{
+text-decoration: none;
+}
+.footer-link ul li{
+    list-style: none;
+    }
+.footer-link ul li a{
+    display: block;
+    color: #a7bbc6;
+    text-decoration: none;
+    margin: 2px 3px;
+    padding: 3px 7px;
+    font-size: small;
+}
+.footer-link ul li a:hover{
+   color: #f05730;
+   font-weight: 800;
+}
