@@ -1,9 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css';
 const Navbar = () => {
+  const[navbar,setNavbar]=useState(false)
+
+const changebg=()=>{
+  console.log(window.scrollY);
+  if(window.scrollY>=80){
+    setNavbar(true)
+  }else{
+    setNavbar(false)
+  }
+}
+window.addEventListener('scroll',changebg)
   return (
     <>
-      <nav className="navbar navbar-expand-lg  py-lg-3 navbar-bg">
+      <nav className={navbar ? 'navbar active-bg navbar-expand-lg  py-lg-3 navbar-bg' : 'navbar  navbar-expand-lg  py-lg-3 navbar-bg'}>
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
         <img src="img/logo.png " className=' mx-lg-3 px-lg-3 me-auto logo' alt="" />

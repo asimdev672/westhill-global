@@ -1,9 +1,13 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 .navbar{
     position: sticky !important;
+    top: 0;
 }
 .navbar-bg{
-    background: #393f51;
+    background: #f1f2f2;
+}
+.active-bg{
+    background-color: #393f51;
 }
 
 .navbar-toggler-icon{
