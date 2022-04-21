@@ -17,3 +17,13 @@
 .small-text{
     font-size: small;
 }
+@media only screen and (max-width: 600px) {
+    .overlay{
+        position: absolute;
+        top: 115px;
+        color: #a7bbc6;
+        font-size: xx-large;
+        left: 19px;
+        font-weight: 700;
+    }
+  }
