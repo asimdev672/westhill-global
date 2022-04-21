@@ -1,6 +1,6 @@
-import React from "react";
 import "./Policyholder.css";
 import Video from "../Video";
+import Acoordian from "../Acoordian";
 import Footer from '../Footer'
 const Policyholder = () => {
   return (
@@ -9,6 +9,36 @@ const Policyholder = () => {
         stext="POLICYHOLDER"
         ptext="Enjoy a simple, free, and fully digital experience that makes home repairs easier."
       />
+
+        {/*------------------------ After video 1st div----------------------- */}
+        <div className="container-fluid py-0 ">
+            <h1 className="text-center first-heading">Sometimes the fastest way home all</h1>
+            <h2 className="text-center first-heading">begins with just a few clicks.</h2>
+            </div>  
+        <div className="container-fluid px-0 bg-color ">
+          <div className="container my-4 ">
+        
+              <div className="row">
+                  <div className='col-lg-4 col-md-4 col-sm-6  py-5 b '>
+                  <p className="number mx-auto">1</p>
+                  <h4 className=" first-div-card-heading text-center">Lorem</h4>
+                      <h5 className='text-center mb-5 py-sm-3'>FIND A HIGHLY-VETTED, QUALIFIED CONTRACTOR</h5>
+                  </div>
+                  <div className='col-lg-4 col-md-4 col-sm-6  border border-top-0 border-bottom-0  py-5 ' >
+                  <p className="number mx-auto">2</p>
+                  <h4 className=" first-div-card-heading text-center">Lorem ipsum dolor</h4>
+                      <h5 className='text-center mb-5 py-sm-3'>GET A FAIR ESTIMATE WITH QUALITY REVIEW</h5>
+                  </div>
+                  <div className='col-lg-4 col-md-4 col-sm-6  py-5 '>
+                  <p className="number mx-auto">3</p>
+                  <h4 className=" first-div-card-heading text-center">Lorem ipsum dolor amet</h4>
+                      <h5 className='text-center py-sm-3 mb-5 '>TRACK EVERY STEP OF THE PROJECT IN REAL-TIME</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+        {/*------------------------ After video 2nd div----------------------- */}
       <div className="container-fluid bg-color py-0">
         <div className="container ">
           <h1 className="my-3 text-heading">
@@ -37,6 +67,32 @@ const Policyholder = () => {
           </p>
         </div>
       </div>
+        {/*------------------------ After video 3rd div----------------------- */}
+        <div className="container-fluid px-0 py-5 third-div">
+        <div className="container  mx-lg-3">
+          <h2>WHAT PROPERTY OWNERS CAN EXPECT:</h2>
+          <p>When utilizing the Westhill platform, homeowners can enjoy a simple, free, and fully digital experience that will make home repairs easier,and assist them down the “happy path to normal”</p>
+          </div>
+                           {/* ------------------acordian--------- */}
+                           <div className="container">
+                           <Acoordian
+                             heading='A FULLY-DIGITAL EXPERIENCE'
+                           /> 
+                           <Acoordian
+                             heading='ACCESS TO VETTED, QUALIFIED CONTRACTORS'
+                           /> 
+                           <Acoordian
+                             heading='ZERO COST TO POLICYHOLDER'
+                           /> 
+                           <Acoordian
+                             heading='A 5-YEAR WORKMANSHIP WARRANTY'
+                           /> 
+                           <Acoordian
+                             heading='ACCESS TO CUSTOMER EXPERIENCE SPECIALISTS'
+                           /> 
+                          
+                 </div>
+        </div>
       <Footer/>
     </>
   );

@@ -1,14 +1,50 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{margin: 0; padding: 0; box-sizing: border-box; }
+.first-heading{
+ font-weight: 800;
+ color: #393f51;
+}
 .text-heading{
     color: #393f51;
     font-weight: 700;
+    text-shadow: -1px -1px #393f51;
+}
+.number{
+    background-color: #f05730;
+    border-radius: 999px;
+    color: #a7bbc6;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 50px;
+}
+.first-div-card-heading{
+    font-weight: 700;
+    color: #f05730;
 }
 .para{
     letter-spacing: 1px;
     font-size: large;
     padding: 12px 0px;
     color: #393f51;
+    margin-bottom: 0px;
 }
 .bg-color{
     background: #f1f2f2;
 }
+.third-div{
+    background-color: #393f51;
+    color: #a7bbc6;
+}
+.third-div h2{
+    font-weight: 800;
+}
+.third-div p{
+   letter-spacing: 1px;
+   font-weight: 600;
+}
+
+
