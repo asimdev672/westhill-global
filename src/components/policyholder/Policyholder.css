@@ -1,0 +1,14 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.text-heading{
+    color: #393f51;
+    font-weight: 700;
+}
+.para{
+    letter-spacing: 1px;
+    font-size: large;
+    padding: 12px 0px;
+    color: #393f51;
+}
+.bg-color{
+    background: #f1f2f2;
+}
