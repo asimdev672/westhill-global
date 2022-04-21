@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React, { useState } from 'react'
 import './Navbar.css';
 const Navbar = () => {
@@ -16,50 +17,50 @@ window.addEventListener('scroll',changebg)
     <>
       <nav className={navbar ? 'navbar active-bg navbar-expand-lg  py-lg-3 navbar-bg' : 'navbar  navbar-expand-lg  py-lg-3 navbar-bg'}>
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">
+    <Link className="navbar-brand" to="#">
         <img src="img/logo.png " className=' mx-lg-3 px-lg-3 me-auto logo' alt="" />
-    </a>
+    </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mx-auto  mb-2 mb-lg-0 navbar-items-a">
         <li className="nav-item">
-          <a className="nav-link active " aria-current="page" href="#">Home</a>
+          <Link className="nav-link " aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">POLICYHOLDER</a>
+          <Link className="nav-link" to="/policyholder">POLICYHOLDER</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">CARRIERS</a>
+          <Link className="nav-link" to="#">CARRIERS</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">CONTRACTOR</a>
+          <Link className="nav-link" to="#">CONTRACTOR</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">PROPERTEYRENOVATION</a>
+          <Link className="nav-link" to="#">PROPERTEYRENOVATION</Link>
         </li>
         <li className="nav-item ">
-          <a className="nav-link " href="#">PLATFORM</a>
+          <Link className="nav-link " to="#">PLATFORM</Link>
           
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             ABOUT US
-          </a>
+          </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">CARRERS</a></li>
+            <li><Link className="dropdown-item" to="#">CARRERS</Link></li>
           </ul>
         </li>
         <li className="nav-item dropdown  ">
-          <a className="nav-link dropdown-toggle showw-item " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className="nav-link dropdown-toggle showw-item " to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             LOGIN
-          </a>
+          </Link>
          
           <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
-            <li><a className="dropdown-item" href="#">ELSO</a></li>
-            <li><a className="dropdown-item" href="#">CONTRACTOR</a></li>
-            <li><a className="dropdown-item" href="#">CARRIER</a></li>
+            <li><Link className="dropdown-item" to="#">ELSO</Link></li>
+            <li><Link className="dropdown-item" to="#">CONTRACTOR</Link></li>
+            <li><Link className="dropdown-item" to="#">CARRIER</Link></li>
           </ul>
         </li>
         
