@@ -6,6 +6,7 @@ import Policyholder from "./components/policyholder/Policyholder";
 import Carriers from "./components/Carriers";
 import Contractor from "./components/contractor/Contractor";
 import PropertyEnovation from "./components/propertyenovation/PropertyEnovation";
+import Plateform from "./components/platform/Plateform";
 import Footer from "./components/Footer";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -24,6 +25,7 @@ function App() {
           path="/propertyEnovation"
           element={<PropertyEnovation />}
         />
+        <Route exact path="/plateform" element={<Plateform />} />
       </Routes>
       <Footer />
     </>

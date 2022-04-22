@@ -41,26 +41,26 @@ window.addEventListener('scroll',changebg)
           <Link className="nav-link" to="/propertyEnovation">PROPERTEYRENOVATION</Link>
         </li>
         <li className="nav-item ">
-          <Link className="nav-link " to="#">PLATFORM</Link>
+          <Link className="nav-link " to="/plateform">PLATFORM</Link>
           
         </li>
         <li className="nav-item dropdown">
-          <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className="nav-link dropdown-toggle" to="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             ABOUT US
           </Link>
           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><Link className="dropdown-item" to="#">CARRERS</Link></li>
+            <li><Link className="dropdown-item" to="">CARRERS</Link></li>
           </ul>
         </li>
         <li className="nav-item dropdown  ">
-          <Link className="nav-link dropdown-toggle showw-item " to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <Link className="nav-link dropdown-toggle showw-item " to="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             LOGIN
           </Link>
          
           <ul className="dropdown-menu " aria-labelledby="navbarDropdown">
-            <li><Link className="dropdown-item" to="#">ELSO</Link></li>
-            <li><Link className="dropdown-item" to="#">CONTRACTOR</Link></li>
-            <li><Link className="dropdown-item" to="#">CARRIER</Link></li>
+            <li><Link className="dropdown-item" to="">ELSO</Link></li>
+            <li><Link className="dropdown-item" to="">CONTRACTOR</Link></li>
+            <li><Link className="dropdown-item" to="">CARRIER</Link></li>
           </ul>
         </li>
         
