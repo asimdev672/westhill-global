@@ -38,7 +38,7 @@ window.addEventListener('scroll',changebg)
           <Link className="nav-link" to="/contractor">CONTRACTOR</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">PROPERTEYRENOVATION</Link>
+          <Link className="nav-link" to="/propertyEnovation">PROPERTEYRENOVATION</Link>
         </li>
         <li className="nav-item ">
           <Link className="nav-link " to="#">PLATFORM</Link>
