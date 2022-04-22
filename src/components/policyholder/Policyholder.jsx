@@ -1,7 +1,6 @@
 import "./Policyholder.css";
 import Video from "../Video";
 import Acoordian from "../Acoordian";
-import Footer from '../Footer'
 const Policyholder = () => {
   return (
     <>
@@ -93,7 +92,6 @@ const Policyholder = () => {
                           
                  </div>
         </div>
-      <Footer/>
     </>
   );
 };

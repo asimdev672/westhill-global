@@ -4,7 +4,7 @@ const CarrierAcoordian = (props) => {
        const [show, setShow] = useState(false);
   return (
     <>
-      <div className="acordian-divs py-lg-3 my-lg-4 my-2 ">
+      <div className="acordian-divs py-lg-3 my-lg-2 my-2 ">
         <div
           className="d-flex justify-content-between pt-3 acordians-h"
           onClick={() => setShow(!show)}

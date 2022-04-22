@@ -23,7 +23,7 @@ const Carriers = () => {
           </p>
 
           <div className="container">
-            <h3 className="heading ">
+            <h3 className="s-heading ">
               Cash Settlement is not a world class customer experience
             </h3>
 
@@ -33,7 +33,7 @@ const Carriers = () => {
               However, in a cash settlement model, consumers are asked to do
               just that after receiving their check.
             </p>
-            <h3 className="heading">
+            <h3 className="s-heading">
               Policyholders value concierge-style services such as managed
               repair
             </h3>
@@ -96,6 +96,12 @@ const Carriers = () => {
             <div className="col-lg-6">
               <CarrierAcoordian heading="A FULLY-DIGITAL EXPERIENCE" />
             </div>
+            <div className="col-lg-6">
+              <CarrierAcoordian heading="A FULLY-DIGITAL EXPERIENCE" />
+            </div>
+            <div className="col-lg-6">
+              <CarrierAcoordian heading="A FULLY-DIGITAL EXPERIENCE" />
+            </div>
           </div>
         </div>
       </div>
@@ -111,36 +117,48 @@ const Carriers = () => {
          {/*------------------------ 3rd DIV card--------------------- */}
          <div className="container-fluid mt-lg-5">
          <div className="row mt-lg-5"  >
+         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
          <CarrierCard
              img='img/thumb.PNG'
              heading='+10 POINT NPS INCREASE'
              text='Insurance carriers reported a 10-point increase in NPS scores by simply implementing the Westhill Managed Repair Solution.'
          />
+         </div>
+         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ' >
          <CarrierCard
              img='img/multiply.PNG'
              heading='$400 AVERAGE LAE SAVINGS'
              text='Carriers utilizing MRP Contractor-first model to inspect and receive an estimate integrated with desk adjusting save an average of $400 per claim on LAE.'
          />
+         </div>
+         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
+         <CarrierCard
+             img='img/thumb.PNG'
+             heading='+10 POINT NPS INCREASE'
+             text='Insurance carriers reported a 10-point increase in NPS scores by simply implementing the Westhill Managed Repair Solution.'
+         />
+         </div>
+         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
          <CarrierCard
              img='img/weight.PNG'
              heading='FASTER CYCLE TIMES'
              text='In one case study, Westhill significantly lowered the timeline from FNOL to completed repair, by 60% by leveraging our process & technology.'
          />
+         </div>
+         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
          <CarrierCard
              img='img/path.PNG'
              heading='AN AVERAGE OF 14% SAVINGS ON REPAIR COST'
              text='In another case study, a partner carrier saw an average of 14% savings on repair costs vs. the prior year utilizing the Westhill model.'
          />
+         </div>
+         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
          <CarrierCard
-             img='img/bettery.PNG'
-             heading='8% MORE ACCURATE ESTIMATES'
-             text='Carriers adopting Westhills best practice, third-party estimate QA review process have recognized an improved market accuracy of 8%.'
+             img='img/path.PNG'
+             heading='AN AVERAGE OF 14% SAVINGS ON REPAIR COST'
+             text='In another case study, a partner carrier saw an average of 14% savings on repair costs vs. the prior year utilizing the Westhill model.'
          />
-         <CarrierCard
-             img='img/d-arrow.PNG'
-             heading='68% LESS SUPPLEMENTS'
-             text='Utilizing Westhill’s workflow and communication processes carriers have seen a decrease in supplements, with no supplements reported on  68% of referred claims'
-         />
+         </div>
               </div>
          </div>
       </div>
