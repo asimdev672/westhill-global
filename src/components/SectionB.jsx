@@ -1,21 +1,30 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./SectionB.css";
 const SectionB = () => {
+  useEffect(()=>{
+    AOS.init({
+      duration:3000,
+     offset: 200
+    },[])
+  })
   return (
     <>
       <div className="container-fluid bg-color">
         <div className="container">
-          <p className="para">
+          <p className="para" data-aos="fade-right">
             Let's face it: the current home repair process is difficult.
           </p>
-          <p className="para">
+          <p className="para"  data-aos="fade-right">
             Unfortunately, homeowners often have to give up valuable time and
             become project managers to ensure that repairs get completed -
             countless research hours to find a reputable contractor, deciphering
             scope of work, trying to track every bit of new information, and
             ultimately ensuring that they are not being taken advantage of.
           </p>
-          <p className="para">
+          <p className="para"  data-aos="fade-right">
             We believe that there is a better way. Westhill exists to improve
             and streamline the repair process for homeowners. By leveraging
             technology, Westhill helps homeowners:
@@ -38,13 +47,13 @@ const SectionB = () => {
                 className="my-lg-2 text-lg-center mx-auto"
                 alt=""
               />
-              <h5 className="text-center mb-5 py-sm-3">
+              <h5 className="text-center mb-5 py-sm-3" data-aos="fade-left">
                 GET A FAIR ESTIMATE WITH QUALITY REVIEW
               </h5>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-6  py-5 ">
               <img src="img/location.png" className="my-lg-2" alt="" />
-              <h5 className="text-center py-sm-3 mb-5 ">
+              <h5 className="text-center py-sm-3 mb-5 " data-aos="fade-left">
                 TRACK EVERY STEP OF THE PROJECT IN REAL-TIME
               </h5>
             </div>
@@ -71,7 +80,7 @@ const SectionB = () => {
             </div>
             <div className="col-lg-4 col-md-4 col-sm-6    py-5 ">
               <h3 className="text-center">CARRIERS</h3>
-              <p className="text-center mb-5 py-sm-3 px-3">
+              <p className="text-center mb-5 py-sm-3 px-3" data-aos="fade-left">
                 Homeowners enjoy a faster, easier customer experience during the
                 process of repairing their homes. It's what we refer to as the
                 “happy path to normal”.
@@ -80,10 +89,10 @@ const SectionB = () => {
 
             <div className="col-lg-4 col-md-4 col-sm-6  py-5 ">
               <h3 className="text-center">CONTRACTORS</h3>
-              <p className="text-center py-sm-3 px-3 mb-5 ">
+              <p className="text-center py-sm-3 px-3 mb-5 " data-aos="fade-left">
                 Contractors benefit by growing their business by leveraging
                 technology to tap into a source of quality, profitable jobs with
-                a high-close rate.{" "}
+                a high-close rate.
               </p>
             </div>
           </div>

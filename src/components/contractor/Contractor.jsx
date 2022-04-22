@@ -1,9 +1,17 @@
-import React from "react";
 import "./Contractor.css";
 import Video from "../Video";
 import CarrierCard from "../CarrierCard";
 import CarrierAcoordian from "../CarrierAcoordian";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const Contractor = () => {
+  useEffect(()=>{
+    AOS.init({
+ duration:3000,
+ offset: 200
+    })
+  },[])
   return (
     <>
       <Video
@@ -14,7 +22,7 @@ const Contractor = () => {
       <div className="container-fluid">
         <div className="container">
           <h1 className="heading py-lg-4">HOW IT WORKS</h1>
-          <p className="para">
+          <p className="para" data-aos="fade-right">
             Westhill sends contractors qualified jobs in the insurance and
             institutional markets. Contractors keep in sync with the property
             owner with real-time updates including estimate, scope, and
@@ -104,7 +112,7 @@ const Contractor = () => {
           <h1 className="text-center pt-lg-5 pt-3">
             READY FOR NEW & EXCITING, HIGH- <br /> QUALITY JOBS?
           </h1>
-          <p className="text-center mt-lg-4 mt-3">
+          <p className="text-center mt-lg-4 mt-3" data-aos="fade-up">
             Book a free analysis & workflow mapping session.
           </p>
           <div className="d-flex justify-content-center">

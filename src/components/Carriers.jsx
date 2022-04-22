@@ -1,10 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Carriers.css";
 import Video from "./Video";
 import CarrierAcoordian from "./CarrierAcoordian";
 import CarrierCard from "./CarrierCard";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Carriers = () => {
+  useEffect(()=>{
+    AOS.init({
+ duration:2000,
+ offset: 250
+    })
+  },[])
   return (
     <>
       <Video
@@ -15,7 +23,7 @@ const Carriers = () => {
       <div className="container-fluid">
         <div className="container">
           <h1 className="heading py-lg-4">Why Managed Repair?</h1>
-          <p className="para">
+          <p className="para" data-aos="fade-right">
             Industry data shows that when insurers miss the mark on how claims
             are handled, both customer satisfaction and retention suffer: -85
             points satisfaction on survey scores & 83% switch or plan to switch
@@ -27,7 +35,7 @@ const Carriers = () => {
               Cash Settlement is not a world class customer experience
             </h3>
 
-            <p className="para">
+            <p className="para" data-aos="fade-right">
               According to J.D. Power, the 2nd highest negative factor cited in
               a claims experience is a "high level of effort to resolve".
               However, in a cash settlement model, consumers are asked to do
@@ -37,14 +45,14 @@ const Carriers = () => {
               Policyholders value concierge-style services such as managed
               repair
             </h3>
-            <p className="para">
+            <p className="para" data-aos="fade-right">
               Offering services such as managed repair as an alternative to cash
               settlement models has demonstrated a significant increase in
               customer satisfaction, resulting in survey score increases between
               33-44 points.
             </p>
           </div>
-          <p className="para">
+          <p className="para" data-aos="fade-right">
             Continually creating a better policyholder experience is perhaps the
             most crucial factor in competing for customer satisfaction,
             retention, and growth. By offering a managed repair solution to
@@ -57,7 +65,7 @@ const Carriers = () => {
       <div className="container-fluid second-div">
         <div className="container">
           <h1 className="my-lg-5 pt-lg-5 pt-3">WHY WESTHILL?</h1>
-          <p>
+          <p data-aos="fade-up">
             Now more than ever, policyholders, and consumers in general, highly
             value digital capabilities and interactions. According to a recent
             study by Medallia, 60% of customers expect to have real-time,
@@ -66,7 +74,7 @@ const Carriers = () => {
             customers who did not use digital tools in the claims process (JD
             Power 2022).
           </p>
-          <p>
+          <p data-aos="fade-up">
             Now more than ever, policyholders, and consumers in general, highly
             value digital capabilities and interactions. According to a recent
             study by Medallia, 60% of customers expect to have real-time,
@@ -108,7 +116,7 @@ const Carriers = () => {
       {/*------------------------ 3rd DIV--------------------- */}
       <div className="container-fluid thrd-div">
         <h1 className="py-lg-5">POWERFUL RESULTS FOR YOUR BUSINESS</h1>
-        <p className="para">
+        <p className="para" data-aos="fade-up">
           Insurance carriers looking to create an improved and more
           cost-effective customer experience can realize increased customer
           satisfaction, decreased LAE, faster cycle times & controlled indemnity
@@ -167,7 +175,7 @@ const Carriers = () => {
           FIND OUT HOW WESTHILL CAN SEAMLESSLY INTEGRATE
           <br /> TO YOUR WORKFLOW
         </h1>
-        <p className="text-center mt-lg-4 mt-3">
+        <p className="text-center mt-lg-4 mt-3" data-aos="fade-up">
           Book a free analysis & workflow mapping session.
         </p>
         <div className="d-flex justify-content-center">
