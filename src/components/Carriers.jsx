@@ -10,7 +10,7 @@ const Carriers = () => {
   useEffect(()=>{
     AOS.init({
  duration:2000,
- offset: 250
+ offset: 200
     })
   },[])
   return (

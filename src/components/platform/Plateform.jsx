@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Plateform = () => {
     useEffect(()=>{
         AOS.init({
-     duration:3000,
+     duration:2000,
      offset: 200
         })
       },[])
