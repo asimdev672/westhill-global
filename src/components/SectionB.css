@@ -1,22 +1,31 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
-.para{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.para {
     letter-spacing: 1px;
     font-size: large;
     padding: 12px 0px;
     color: #393f51;
 }
-.bg-color{
+
+.bg-color {
     background: #f1f2f2;
 }
-.center-div{
-   background-color: #393f51;
-   /* color: #f05730; */
-   color: white;
+
+.center-div {
+    background-color: #393f51;
+    /* color: #f05730; */
+    color: white;
 }
-.imgs{
+
+.imgs {
     align-items: center;
 }
-.second-card-div{
+
+.second-card-div {
     background-color: dimgrey;
     position: relative;
     top: -24px;

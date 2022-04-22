@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import './CarrierAcoordian.css'
+import "./CarrierAcoordian.css";
 const CarrierAcoordian = (props) => {
-       const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
   return (
     <>
       <div className="acordian-divs py-lg-3 my-lg-2 my-2 ">
@@ -24,6 +24,6 @@ const CarrierAcoordian = (props) => {
       </div>
     </>
   );
-}
+};
 
-export default CarrierAcoordian
+export default CarrierAcoordian;

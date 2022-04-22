@@ -1,56 +1,66 @@
-            /*----------- ---ist div--------- */
-            .para{
-                letter-spacing: 1px;
-                font-size: large;
-                padding: 12px 0px;
-                color: #393f51;
-                margin-bottom: 0px;
-                font-family: 'Poppins', sans-serif;
-            }
-            .symbol{
-                font-size: xx-large;
-                color: #f05730;
-                
-            }
-            .heading{
-                    color: #393f51;
-                    font-weight: 800;
-            }
-            .s-heading{
-                color: #f05730;
-                    font-weight: 700;
-            }
-             /*----------- ---2nd div--------- */
-            .second-div{
-                background-color: #393f51;
-                color: #a7bbc6;
-                
-            }
-            .second-div h1{
-              font-weight: 800;
-            }
-            .second-div p{
-                letter-spacing: 1px;
-                font-weight: 600;
-                line-height: 34px;
-                font-family: 'Poppins', sans-serif;
-            
-            }
-             /*------------------------ 3rd DIV--------------------- */
-             .thrd-div{
-                background: #f1f2f2;
-             }
-             .thrd-div h1{
-                 color: #393f51;
-                font-weight: 800;
-             }
-             .last-div h1{
-                color: #393f51;
-                font-size: x-large;
-                font-weight: 900;
-             }
-             .last-div p{
-                color: #393f51;
-                font-size: x-large;
-            
-             }
+/*----------- ---ist div--------- */
+.para {
+    letter-spacing: 1px;
+    font-size: large;
+    padding: 12px 0px;
+    color: #393f51;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.symbol {
+    font-size: xx-large;
+    color: #f05730;
+
+}
+
+.heading {
+    color: #393f51;
+    font-weight: 800;
+}
+
+.s-heading {
+    color: #f05730;
+    font-weight: 700;
+}
+
+/*----------- ---2nd div--------- */
+.second-div {
+    background-color: #393f51;
+    color: #a7bbc6;
+
+}
+
+.second-div h1 {
+    font-weight: 800;
+}
+
+.second-div p {
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 34px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*------------------------ 3rd DIV--------------------- */
+.thrd-div {
+    background: #f1f2f2;
+}
+
+.thrd-div h1 {
+    color: #393f51;
+    font-weight: 800;
+}
+
+.last-div h1 {
+    color: #393f51;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.last-div p {
+    color: #393f51;
+    font-size: x-large;
+
+}

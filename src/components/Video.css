@@ -1,12 +1,18 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
-#videolayout{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#videolayout {
     min-width: 100%;
     min-height: 100%;
     position: absolute;
     right: 0;
     bottom: 0;
 }
-.overlay{
+
+.overlay {
     position: absolute;
     top: 300px;
     color: #a7bbc6;
@@ -14,11 +20,13 @@
     left: 50px;
     font-weight: 700;
 }
-.small-text{
+
+.small-text {
     font-size: small;
 }
+
 @media only screen and (max-width: 600px) {
-    .overlay{
+    .overlay {
         position: absolute;
         top: 115px;
         color: #a7bbc6;
@@ -26,4 +34,4 @@
         left: 19px;
         font-weight: 700;
     }
-  }
+}

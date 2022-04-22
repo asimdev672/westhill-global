@@ -1,31 +1,42 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
-.navbar{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
     position: sticky !important;
     top: 0;
 }
-.navbar-bg{
+
+.navbar-bg {
     background: #f1f2f2;
 }
-.active-bg{
+
+.active-bg {
     background-color: #393f51;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-   }
-.navbar-items-a li a{
- font-size: medium;
- font-weight: 700;
- color: #f05730;
 }
-.navbar-items-a li a:hover{
+
+.navbar-items-a li a {
+    font-size: medium;
+    font-weight: 700;
+    color: #f05730;
+}
+
+.navbar-items-a li a:hover {
     color: whitesmoke;
 
 }
-.dropdown-menu{
+
+.dropdown-menu {
     background: #393f51 !important;
 }
-.dropdown-menu li a:hover{
+
+.dropdown-menu li a:hover {
     background: #393f51 !important;
     color: white !important;
 }

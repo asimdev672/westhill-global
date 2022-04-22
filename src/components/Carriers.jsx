@@ -114,62 +114,66 @@ const Carriers = () => {
           satisfaction, decreased LAE, faster cycle times & controlled indemnity
           spend by implementing a digital MRP program.
         </p>
-         {/*------------------------ 3rd DIV card--------------------- */}
-         <div className="container-fluid mt-lg-5">
-         <div className="row mt-lg-5"  >
-         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
-         <CarrierCard
-             img='img/thumb.PNG'
-             heading='+10 POINT NPS INCREASE'
-             text='Insurance carriers reported a 10-point increase in NPS scores by simply implementing the Westhill Managed Repair Solution.'
-         />
-         </div>
-         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ' >
-         <CarrierCard
-             img='img/multiply.PNG'
-             heading='$400 AVERAGE LAE SAVINGS'
-             text='Carriers utilizing MRP Contractor-first model to inspect and receive an estimate integrated with desk adjusting save an average of $400 per claim on LAE.'
-         />
-         </div>
-         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
-         <CarrierCard
-             img='img/thumb.PNG'
-             heading='+10 POINT NPS INCREASE'
-             text='Insurance carriers reported a 10-point increase in NPS scores by simply implementing the Westhill Managed Repair Solution.'
-         />
-         </div>
-         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
-         <CarrierCard
-             img='img/weight.PNG'
-             heading='FASTER CYCLE TIMES'
-             text='In one case study, Westhill significantly lowered the timeline from FNOL to completed repair, by 60% by leveraging our process & technology.'
-         />
-         </div>
-         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
-         <CarrierCard
-             img='img/path.PNG'
-             heading='AN AVERAGE OF 14% SAVINGS ON REPAIR COST'
-             text='In another case study, a partner carrier saw an average of 14% savings on repair costs vs. the prior year utilizing the Westhill model.'
-         />
-         </div>
-         <div className='col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card '>
-         <CarrierCard
-             img='img/path.PNG'
-             heading='AN AVERAGE OF 14% SAVINGS ON REPAIR COST'
-             text='In another case study, a partner carrier saw an average of 14% savings on repair costs vs. the prior year utilizing the Westhill model.'
-         />
-         </div>
-              </div>
-         </div>
+        {/*------------------------ 3rd DIV card--------------------- */}
+        <div className="container-fluid mt-lg-5">
+          <div className="row mt-lg-5">
+            <div className="col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ">
+              <CarrierCard
+                img="img/thumb.PNG"
+                heading="+10 POINT NPS INCREASE"
+                text="Insurance carriers reported a 10-point increase in NPS scores by simply implementing the Westhill Managed Repair Solution."
+              />
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ">
+              <CarrierCard
+                img="img/multiply.PNG"
+                heading="$400 AVERAGE LAE SAVINGS"
+                text="Carriers utilizing MRP Contractor-first model to inspect and receive an estimate integrated with desk adjusting save an average of $400 per claim on LAE."
+              />
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ">
+              <CarrierCard
+                img="img/thumb.PNG"
+                heading="+10 POINT NPS INCREASE"
+                text="Insurance carriers reported a 10-point increase in NPS scores by simply implementing the Westhill Managed Repair Solution."
+              />
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ">
+              <CarrierCard
+                img="img/weight.PNG"
+                heading="FASTER CYCLE TIMES"
+                text="In one case study, Westhill significantly lowered the timeline from FNOL to completed repair, by 60% by leveraging our process & technology."
+              />
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ">
+              <CarrierCard
+                img="img/path.PNG"
+                heading="AN AVERAGE OF 14% SAVINGS ON REPAIR COST"
+                text="In another case study, a partner carrier saw an average of 14% savings on repair costs vs. the prior year utilizing the Westhill model."
+              />
+            </div>
+            <div className="col-lg-4 col-md-4 col-sm-6  py-5 border carrier-card ">
+              <CarrierCard
+                img="img/path.PNG"
+                heading="AN AVERAGE OF 14% SAVINGS ON REPAIR COST"
+                text="In another case study, a partner carrier saw an average of 14% savings on repair costs vs. the prior year utilizing the Westhill model."
+              />
+            </div>
+          </div>
+        </div>
       </div>
       <div className="container last-div">
-          <h1 className="text-center mt-lg-5 mt-3">FIND OUT HOW WESTHILL CAN SEAMLESSLY INTEGRATE<br /> TO YOUR WORKFLOW</h1>
-           <p className="text-center mt-lg-4 mt-3">Book a free analysis & workflow mapping session.</p>
-           <div className="d-flex justify-content-center">
-                   <button className=" btn-card mt-lg-4">CONTACT US</button>
-           </div>
-            
+        <h1 className="text-center mt-lg-5 mt-3">
+          FIND OUT HOW WESTHILL CAN SEAMLESSLY INTEGRATE
+          <br /> TO YOUR WORKFLOW
+        </h1>
+        <p className="text-center mt-lg-4 mt-3">
+          Book a free analysis & workflow mapping session.
+        </p>
+        <div className="d-flex justify-content-center">
+          <button className=" btn-card mt-lg-4">CONTACT US</button>
         </div>
+      </div>
     </>
   );
 };

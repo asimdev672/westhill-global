@@ -1,20 +1,23 @@
 /*-------------------- acordian------- */
-.acordian-div{
+.acordian-div {
     border-bottom: 1px solid #a7bbc6;
 }
-.acordian-div:hover{
-    border-bottom: 2px solid #f05730; 
+
+.acordian-div:hover {
+    border-bottom: 2px solid #f05730;
 }
-.acordian-h{
+
+.acordian-h {
 
     color: #a7bbc6;
 }
-.acordian-h h4{
+
+.acordian-h h4 {
     font-weight: 700;
     text-transform: capitalize;
 }
 
-.acordian-h .imgs{
+.acordian-h .imgs {
     width: 25px;
     height: 25px;
 }
