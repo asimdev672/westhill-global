@@ -32,7 +32,7 @@ window.addEventListener('scroll',changebg)
           <Link className="nav-link" to="/policyholder">POLICYHOLDER</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="#">CARRIERS</Link>
+          <Link className="nav-link" to="/carriers">CARRIERS</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="#">CONTRACTOR</Link>
