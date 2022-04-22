@@ -29,4 +29,5 @@
     background-color: dimgrey;
     position: relative;
     top: -24px;
+    z-index: -1;
 }
