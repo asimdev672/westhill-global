@@ -10,8 +10,8 @@ const Video = (props) => {
       </video>
       <section className="overlay">
         <p className="fw-bold fs-1">
-          {" "}
-          <strong>{props.stext}</strong>{" "}
+          
+          <strong>{props.stext}</strong>
         </p>
         <p className="small-text">{props.ptext}</p>
       </section>

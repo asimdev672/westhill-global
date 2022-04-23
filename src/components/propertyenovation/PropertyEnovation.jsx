@@ -1,16 +1,8 @@
 import "./PropertyEnovation.css";
 import Video from "../Video";
 import CarrierCard from "../CarrierCard";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
+
 const PropertyEnovation = () => {
-  useEffect(()=>{
-    AOS.init({
- duration:3000,
- offset: 200
-    })
-  },[])
   return (
     <>
       <Video
@@ -23,7 +15,7 @@ const PropertyEnovation = () => {
             Westhill empowers at-scale institutional owners to make efficient
             and effective repair decisions.
           </p>
-          <p className="para" data-aos="fade-up">
+          <p className="para" >
             One solution, many benefits: find highly-qualified, vetted
             contractors around the nation to meet your market needs, facilitate
             project coordination, and receive insightful analytics. Westhill is
@@ -36,7 +28,7 @@ const PropertyEnovation = () => {
 
       <div className="container-fluid property-inovation-card">
         <h1 className="py-lg-5">POWERFUL RESULTS FOR YOUR BUSINESS</h1>
-        <p className="paras pb-lg-5" data-aos="fade-up">
+        <p className="paras pb-lg-5" >
           Insurance carriers looking to create an improved and more
           cost-effective customer experience can realize increased customer
           satisfaction, decreased LAE, faster cycle times & controlled indemnity
@@ -69,7 +61,7 @@ const PropertyEnovation = () => {
           INTERESTED IN HOW WESTHILL CAN <br /> PARTNER WITH YOU?
         </h1>
         <div className="d-flex justify-content-center">
-          <button className=" btn-card mt-lg-4" data-aos="zoom-in-down">CONTACT US</button>
+          <button className=" btn-card mt-lg-4" >CONTACT US</button>
         </div>
       </div>
     </>

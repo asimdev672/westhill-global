@@ -1,14 +1,6 @@
-import React, { useEffect } from "react";
 import "./Sectionc.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 const SectionC = () => {
-  useEffect(()=>{
-    AOS.init({
-      duration:2000,
-     offset: 200
-    },[])
-  })
+ 
   return (
     <>
       <div className="container-fluid bg-color">

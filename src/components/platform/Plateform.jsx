@@ -1,16 +1,9 @@
 import React from "react";
-import { useEffect } from "react";
 import "./Plateform.css";
 import Video from "../Video";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 const Plateform = () => {
-    useEffect(()=>{
-        AOS.init({
-     duration:2000,
-     offset: 200
-        })
-      },[])
+ 
   return (
     <>
       <Video
@@ -23,7 +16,7 @@ const Plateform = () => {
           <h1 className="heading py-lg-4">
             TECHNOLOGY FOR A BETTER CUSTOMER EXPERIENCE.
           </h1>
-          <p className="parass" data-aos="fade-down">
+          <p className="parass">
             The Westhill platform combines cutting-edge technology with
             exceptional human touch to deliver "wow" experiences when it matters
             most. We are driving transparency and collaboration by connecting
