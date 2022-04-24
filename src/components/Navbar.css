@@ -7,6 +7,7 @@
 .navbar {
     position: sticky !important;
     top: 0;
+    z-index: 1;
 }
 
 .navbar-bg {
